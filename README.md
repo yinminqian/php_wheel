@@ -1,7 +1,6 @@
 
-1. 首要条件
+1. 运行
 
-本文档假设你已经有了可以运行php的开发环境,会使用原生PDO进行数据库链接,对原生php和js有一定的基础
 
 
 `git clone https://github.com/yinminqian/php_wheel`
