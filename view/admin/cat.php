@@ -12,6 +12,8 @@
 <body>
 <h1>欢迎</h1>
 <h3>在此处查看文档</h3>
-<span>点我</span>
+<span> <a href="https://github.com/yinminqian/php_wheel">
+        点我
+    </a></span>
 </body>
 </html>
