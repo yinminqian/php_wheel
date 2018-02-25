@@ -117,6 +117,26 @@ mysql中用户表必须有一个字段用来记录用户的权限
 
 `view`存放你的视图文件
   
+  
+  9.sql操作
+  
+  支持链式语法
+  
+  
+  查询:
+  `$this->where('键','值')->get()`
+  
+  删除:
+  `$this->where('键','值')->delete()`
+  
+  
+  插入和更新:
+  `  public function add($p, &$msg)
+      {
+          $this->safe_fill($p);
+          return $this->save($msg);
+      }` 
+
  
  
  
